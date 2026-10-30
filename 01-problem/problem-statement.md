@@ -2,7 +2,7 @@
 
 **Label:** PUBLIC · **Status:** draft v1, author to revise · **Date:** 2026-10-30
 
-Drafted by Claude (disclosed AI tool) from the author's decisions in `sessions/2026-10-30.md`. Thesis v1 and the framing below are pending the author's review.
+Drafted by Claude (disclosed AI tool) from the author's decisions in `sessions/2026-10-30.md`. The author approved thesis v2. The framing below is pending the author's review.
 
 ## Problem
 
@@ -14,9 +14,9 @@ So projects go offshore, and the Swiss foundation is a common choice [VERIFY pre
 
 **Key term.** *Entrenchment*: control held by a small group that the community cannot remove. Anti-entrenchment is the paper's test for decentralization. Community ownership and openness are supporting values.
 
-## Thesis (v1, 2026-10-30)
+## Thesis (v2, approved 2026-10-30)
 
-> Because US law recognizes decentralized entities only through a patchwork of non-uniform state statutes that courts, the IRS, and private counterparties do not consistently honor, protocol projects cannot operate as legal entities without entrenching control. The law already recognizes DAOs, as general partnerships. What it does not offer is a way to operate as an entity without handing control to a few. Without a form, courts treat a protocol as a general partnership, and anyone who governs risks personal liability. With an offshore form such as the Swiss foundation, a small council runs the project and a Swiss government supervisor holds the final say. Congress should enact a federal recognition layer over state-law decentralized entities so that operating under law no longer requires entrenching control.
+> The law already recognizes DAOs, as general partnerships. What it does not offer is a way to operate as an entity without handing control to a few. Projects that want to operate go offshore, where a Swiss foundation's council runs the project and a Swiss government supervisor holds the final say. Congress should enact a federal recognition layer over state-law decentralized entities so that operating under law no longer requires entrenching control.
 
 ## Scope
 
