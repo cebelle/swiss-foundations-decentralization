@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Swiss Protocol Foundations and Decentralization"
+authors:
+  - family-names: Belle
+    given-names: Charles
+type: report
+license: CC-BY-4.0
