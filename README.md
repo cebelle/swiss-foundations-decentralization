@@ -55,4 +55,16 @@ Cite this repository using [`CITATION.cff`](CITATION.cff). Text is licensed CC B
 
 ## Author
 
+## Disclosures
+
+**Funding.** This paper is not funded. No foundation, protocol, company, or investor commissioned it or reviewed it before publication.
+
+**Current roles.** I am Founder and CEO of Ensoto Inc., a company building a marketplace for tokenized municipal bonds. Ensoto is not a protocol foundation and has no stake in how Swiss foundations are structured or regulated.
+
+**Past roles.** I was previously COO of STORE, a Layer-1 blockchain that was not affiliated with a Swiss foundation when employed there. As a Teaching Fellow at USF School of Law, I led research on municipal bond tokenization funded by the Stellar Development Foundation.
+
+**Holdings.** In absolute disclosure, I may hold a nominal amount of tokens issued by or associated with protocols whose foundations may be discussed in this paper but nothing substantial or worth disclosing.
+
+Any new potential conflict that arises during the project will be logged in `DEVIATIONS.md` with the date.
+
 Charles Belle. Founder & CEO Ensoto. Former Filecoin Foundation for the Decentralized Web Teaching Fellow, USF School of Law.
