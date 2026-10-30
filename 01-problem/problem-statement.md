@@ -1,8 +1,8 @@
 # Problem statement
 
-**Label:** PUBLIC · **Status:** draft v1, author to revise · **Date:** 2026-10-30
+**Label:** PUBLIC · **Status:** approved by author 2026-10-30 · **Date:** 2026-10-30
 
-Drafted by Claude (disclosed AI tool) from the author's decisions in `sessions/2026-10-30.md`. The author approved thesis v2. The framing below is pending the author's review.
+Drafted by Claude (disclosed AI tool) from the author's decisions in `sessions/2026-10-30.md`. The author approved thesis v2 and the framing.
 
 ## Problem
 

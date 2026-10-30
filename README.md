@@ -22,7 +22,7 @@ Each checkpoint is a git tag: a dated, unchangeable snapshot. Compare any two wi
 | Tag | Phase | Contents | Date |
 | --- | --- | --- | --- |
 | `v0-plan` | Pre-registration | Research plan, AI-use policy, origin record | 10/29/2026 |
-| `v1-problem` | Problem and audience | Problem statement, audience memo | _pending_ |
+| `v1-problem` | Problem and audience | Problem statement, audience memo | 10/30/2026 |
 | `v2-research` | Research | Bibliography, source notes, data | _pending_ |
 | `v3-outline` | Argument | Thesis, outline, counterarguments | _pending_ |
 | `v4-draft` | Drafting | Full draft | _pending_ |
