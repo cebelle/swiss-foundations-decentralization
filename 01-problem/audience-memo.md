@@ -6,7 +6,7 @@ Drafted by Claude (disclosed AI tool) from the author's decisions in `sessions/2
 
 ## Primary reader
 
-A staff member on the House Financial Services Committee or the Senate Banking Committee who drafts digital-asset legislation. She knows the market-structure debate and its vocabulary. She does not know Swiss foundation law. She has had no reason to think about entity law, which she assumes belongs to the states.
+A staff member on the House Financial Services Committee or the Senate Banking Committee who drafts digital-asset legislation. They are a lawyer, or know enough law to work at the federal level, and they know the market-structure debate and its vocabulary. They know entity law belongs to the states, so federalism is the first objection they will raise. They do not know Swiss foundation law.
 
 **Second prototype:** policy counsel at an industry group who drafts model statutory text and brings it to that staffer.
 
@@ -17,29 +17,29 @@ A staff member on the House Financial Services Committee or the Senate Banking C
 - **Protocol counsel.** They will test whether the proposal works in practice.
 - **Federal courts.** They are deciding cases like *Samuels v. Lido DAO* without a statute.
 
-## The decision she faces
+## The decision they face
 
 Whether federal law should recognize state-law decentralized entities, and on what terms: tax classification, a liability rule that displaces default partnership law, and recognition across state lines.
 
-## What she already believes
+## What they already believe
 
 These are hypotheses for Phase 3 to test, not assertions.
 
-1. DAOs are a way to avoid liability. *CFTC v. Ooki DAO* is the case she remembers. [VERIFY holding]
-2. Entity law is a state matter, and Congress should stay out of it.
+1. DAOs are a way to avoid liability. *CFTC v. Ooki DAO* is the case they remember. [VERIFY holding]
+2. Because entity law belongs to the states, Congress should stay out of it.
 3. Wyoming's DUNA already solved the problem. [VERIFY]
 4. Projects that go offshore to Swiss foundations have a workable answer, so the US has no urgent problem.
 
-## What the paper must show her
+## What the paper must show them
 
 1. **Fragmentation is real.** State statutes differ, many states have none, and courts, the IRS, and insurers do not consistently honor the forms that exist.
 2. **The bind.** Under current law, a project must choose between legal recognition and decentralization. *Samuels v. Lido DAO* shows what a project risks by choosing neither: anyone who takes part in governance may be treated as a general partner.
 3. **The offshore answer centralizes control.** The Swiss foundation is the case study.
 4. **Only federal law fixes it.** The entities are borderless, and recognition by the IRS and federal courts is federal by nature.
-5. **A statutory design she could draft from.**
+5. **A statutory design they could draft from.**
 6. **Answers to beliefs 1–4.**
 
-## What she does not need
+## What they do not need
 
 Swiss doctrine in depth. The paper covers Swiss law only as far as needed to show how the foundation gives up decentralization to get recognition.
 
