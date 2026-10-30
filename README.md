@@ -55,4 +55,4 @@ Cite this repository using [`CITATION.cff`](CITATION.cff). Text is licensed CC B
 
 ## Author
 
-Charles Belle. Former Teaching Fellow, USF School of Law.
+Charles Belle. Former Filecoin Foundation for the Decentralized Web Teaching Fellow, USF School of Law.
