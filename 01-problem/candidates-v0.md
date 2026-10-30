@@ -43,3 +43,11 @@ Drafted by Claude (disclosed AI tool) from the author's origin materials. The au
 ---
 
 **Voice flags.** Least confident these sound like the author: "The result is a steward with no exit." (A) and "The Swiss foundation became the default by inheritance, not design." (C). Both are more aphoristic than the prior article.
+
+---
+
+## Disposition (2026-10-30, author decisions)
+
+- **C, adopted in revised form.** The primary reader is US policymakers. The remedy narrowed to a federal recognition layer over state-law entities. See `problem-statement.md`.
+- **B, rejected.** Swiss supervisors are working as designed and are not the actor the paper asks to change. Their likely objections remain relevant as counterarguments.
+- **A, rejected as the frame.** Foundation councils are not the actor the paper asks to change. The planned analysis of deeds and governance rules moves to Phase 3 as evidence for the hypothesis that the Swiss foundation centralizes control.
