@@ -22,3 +22,34 @@ Use NYU's three categories (writing, research, analysis) as the structure of you
 | Session logs (cleaned)                      | Drafts shared with reviewers before release                  |
 | Checkpoint snapshots of outline and drafts  | Anything under NDA or from a confidential conversation       |
 | AI-use log and final disclosure             | Venue submission correspondence                              |
+## Model and effort policy
+
+Adopted 2026-11-09 (see `DEVIATIONS.md`). Two Anthropic models are used: **Claude Opus 5.5** and **Claude Fable 5.2**. Effort labels below map to the nearest setting the app offers.
+
+**Rule:** move up a model or an effort level when the output will be **locked** (pre-registered or tagged), **carries a legal claim**, or **becomes argument**. Mechanical, checkable work stays on Opus.
+
+| Phase | Task | Model | Effort |
+| --- | --- | --- | --- |
+| 3 Research | Tier 2 codebook (pre-registered; locks coding) | Opus | High |
+| | Tier 1 list (apply exclusions to the snapshot) | Opus | Medium |
+| | Coding each Tier 2 foundation | Opus | Medium |
+| | Ambiguous coding calls (e.g., Art. 86a ZGB reservations, unclear supervisor) | Fable | High |
+| | US-law source map | Opus | High |
+| | Swiss-law open questions (token-holder binding role, supervisor's final word) | Fable | High |
+| 4 Argument | Thesis, outline, counterarguments, recommendations | Fable | Max |
+| 5 Drafting | All section drafts (one model throughout, for a consistent voice) | Fable | High |
+| | Line edits, cite-checks, Bluebook | Opus | Medium |
+| 6 Review | Independent review, run in a fresh chat with only this repo | Fable | Max |
+| Any | Session logs, deviation entries, commits | Opus | Low |
+
+## AI-use log format
+
+The AI-use log lives in each session log under `sessions/`. From 2026-11-09, every entry records the model and effort used:
+
+`date · category (writing / research / analysis) · model, effort · task · output file · author review`
+
+Example:
+
+`2026-11-10 · research · Opus 5.5, high · drafted Tier 2 codebook · 02-research/codebook.md · author revised field definitions`
+
+Each session log also opens with a line listing the models used. Entries in `sessions/2026-10-29.md` and `sessions/2026-10-30.md` predate this policy and did not record a model; treat them as "model not recorded." The final disclosure footnote names every model used.
