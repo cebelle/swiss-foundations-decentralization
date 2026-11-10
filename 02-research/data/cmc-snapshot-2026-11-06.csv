@@ -1,201 +1,201 @@
-list_position,rank_printed,name,symbol,market_cap_usd,price_usd,source_check
-1,1,Bitcoin,BTC,1523116991756.75,75746.93,pdf+fetch
-2,2,Ethereum,ETH,273111454901.01,2235.05,pdf+fetch
-3,3,Tether USDt,USDT,176779624097.24,0.9986,pdf+fetch
-4,4,BNB,BNB,91152637047.50,693.12,pdf+fetch
-5,5,XRP,XRP,74827536344.42,1.1781,pdf+fetch
-6,6,USDC,USDC,70395512275.36,0.9998,pdf+fetch
-7,7,Solana,SOL,53223561474.49,90.06,pdf+fetch
-8,8,TRON,TRX,30209494858.70,0.3179,pdf+fetch
-9,9,Zcash,ZEC,22380984925.75,1320.17,pdf+fetch
-10,10,Hyperliquid,HYPE,19854443761.08,78.45,pdf+fetch
-11,11,Monero,XMR,11490811385.50,610.32,pdf+fetch
-12,12,Dogecoin,DOGE,11331599192.85,0.07234,pdf+fetch
-13,13,UNUS SED LEO,LEO,8631801143.11,9.3838,pdf+fetch
-14,14,Chainlink,LINK,8112849184.88,10.84,pdf+fetch
-15,15,Cardano,ADA,6772349806.40,0.1839,pdf+fetch
-16,16,Stellar,XLM,5417701027.39,0.1532,pdf+fetch
-17,17,Bitcoin Cash,BCH,5301739835.22,263.59,pdf+fetch
-18,18,Ethena USDe,USDe,4919819933.95,0.9991,pdf+fetch
-19,19,NEAR Protocol,NEAR,4863382189.08,3.7096,pdf+fetch
-20,20,Dai,DAI,4485327634.30,0.9997,pdf+fetch
-21,,Uniswap,,,,pdf+fetch
-22,,Litecoin,,,,pdf+fetch
-23,,Canton,,,,pdf+fetch
-24,,Avalanche,,,,pdf+fetch
-25,,Sui,,,,fetch_only
-26,,World Liberty Financial USD,,,,fetch_only
-27,,Gram (prev. Toncoin),,,,fetch_only
-28,,Tether Gold,,,,fetch_only
-29,,Hedera,,,,fetch_only
-30,,PayPal USD,,,,fetch_only
-31,,Global Dollar,,,,pdf+fetch
-32,,Ripple USD,,,,pdf+fetch
-33,,Shiba Inu,,,,pdf+fetch
-34,,Bittensor,,,,pdf+fetch
-35,,Cronos,,,,pdf+fetch
-36,,Quant,,,,pdf+fetch
-37,,Ethena,,,,pdf+fetch
-38,,OKB,,,,pdf+fetch
-39,,Pepe,,,,pdf+fetch
-40,,Aave,,,,pdf+fetch
-41,,Aster,,,,pdf+fetch
-42,,MemeCore,,,,pdf+fetch
-43,,PAX Gold,,,,pdf+fetch
-44,,Ondo,,,,pdf+fetch
-45,,Pump.fun,,,,fetch_only
-46,,United Stables,,,,fetch_only
-47,,Polkadot,,,,fetch_only
-48,,USDD,,,,fetch_only
-49,,Sky,,,,fetch_only
-50,,Mantle,,,,fetch_only
-51,,World Liberty Financial,,,,pdf+fetch
-52,,Internet Computer,,,,pdf+fetch
-53,,Worldcoin,,,,pdf+fetch
-54,,Bitget Token,,,,pdf+fetch
-55,,JUST,,,,pdf+fetch
-56,,Morpho,,,,pdf+fetch
-57,,Arbitrum,,,,pdf+fetch
-58,,Ethereum Classic,,,,pdf+fetch
-59,,Venice Token,,,,pdf+fetch
-60,,GateToken,,,,pdf+fetch
-61,,KuCoin Token,,,,pdf+fetch
-62,,Polygon (prev. MATIC),,,,pdf+fetch
-63,,Algorand,,,,pdf+fetch
-64,,Pi,,,,pdf+fetch
-65,,Kaspa,,,,fetch_only
-66,,Lighter,,,,fetch_only
-67,,Injective,,,,fetch_only
-68,,Render,,,,fetch_only
-69,,Jupiter,,,,fetch_only
-70,,Cosmos,,,,fetch_only
-71,,Filecoin,,,,pdf+fetch
-72,,XDC Network,,,,pdf+fetch
-73,,LayerZero,,,,pdf+fetch
-74,,Aero,,,,pdf+fetch
-75,,Stacks,,,,pdf+fetch
-76,,Midnight,,,,pdf+fetch
-77,,PancakeSwap,,,,pdf+fetch
-78,,Dash,,,,pdf+fetch
-79,,ether.fi,,,,pdf+fetch
-80,,Aptos,,,,pdf+fetch
-81,,Pyth Network,,,,pdf+fetch
-82,,币安人生,,,,pdf+fetch
-83,,Flare,,,,pdf+fetch
-84,,TrueUSD,,,,fetch_only
-85,,Raydium,,,,fetch_only
-86,,Nexo,,,,fetch_only
-87,,VeChain,,,,fetch_only
-88,,EURC,,,,fetch_only
-89,,Stable,,,,fetch_only
-90,,Celestia,,,,fetch_only
-91,,Pieverse,,,,pdf+fetch
-92,,Curve DAO Token,,,,pdf+fetch
-93,,Pudgy Penguins,,,,pdf+fetch
-94,,Kite,,,,pdf+fetch
-95,,Virtuals Protocol,,,,pdf+fetch
-96,,Sei,,,,pdf+fetch
-97,,Artificial Superintelligence Alliance,,,,pdf+fetch
-98,,BitTorrent [New],,,,pdf+fetch
-99,,Bitcoin SV,,,,pdf+fetch
-100,,OFFICIAL TRUMP,,,,pdf+fetch
-101,,SPX6900,,,,pdf+fetch
-102,,Starknet,,,,pdf+fetch
-103,,Falcon Finance,,,,pdf+fetch
-104,,Tezos,,,,fetch_only
-105,,Sun [New],,,,fetch_only
-106,,Gnosis,,,,fetch_only
-107,,Pendle,,,,fetch_only
-108,,First Digital USD,,,,fetch_only
-109,,Plasma,,,,fetch_only
-110,,Lido DAO,,,,pdf+fetch
-111,,Bonk,,,,pdf+fetch
-112,,Optimism,,,,pdf+fetch
-113,,Immutable,,,,pdf+fetch
-114,,Conflux,,,,pdf+fetch
-115,,Terra Classic,,,,pdf+fetch
-116,,AINFT,,,,pdf+fetch
-117,,Decred,,,,pdf+fetch
-118,,Kaia,,,,pdf+fetch
-119,,The Graph,,,,pdf+fetch
-120,,Arweave,,,,pdf+fetch
-121,,FLOKI,,,,pdf+fetch
-122,,Kamino,,,,pdf+fetch
-123,,Monad,,,,pdf+fetch
-124,,Beam,,,,fetch_only
-125,,Compound,,,,fetch_only
-126,,Akash Network,,,,fetch_only
-127,,Fluid,,,,fetch_only
-128,,Ethereum Name Service,,,,fetch_only
-129,,THORChain,,,,fetch_only
-130,,Jito,,,,pdf+fetch
-131,,Basic Attention Token,,,,pdf+fetch
-132,,Zebec Network,,,,pdf+fetch
-133,,Convex Finance,,,,pdf+fetch
-134,,JasmyCoin,,,,pdf+fetch
-135,,EigenCloud,,,,pdf+fetch
-136,,IOTA,,,,pdf+fetch
-137,,Zama,,,,pdf+fetch
-138,,Maple Finance,,,,pdf+fetch
-139,,Trust Wallet Token,,,,pdf+fetch
-140,,OriginTrail,,,,pdf+fetch
-141,,SOON,,,,pdf+fetch
-142,,dogwifhat,,,,pdf+fetch
-143,,Cap,,,,pdf+fetch
-144,,Telcoin,,,,fetch_only
-145,,GoMining,,,,fetch_only
-146,,Meteora,,,,fetch_only
-147,,Theta Network,,,,fetch_only
-148,,Axie Infinity,,,,fetch_only
-149,,Decentraland,,,,fetch_only
-150,,Onyxcoin,,,,pdf+fetch
-151,,MX Token,,,,pdf+fetch
-152,,Vaulta,,,,pdf+fetch
-153,,Neo,,,,pdf+fetch
-154,,Sentient,,,,pdf+fetch
-155,,Useless Coin,,,,pdf+fetch
-156,,Pons,,,,pdf+fetch
-157,,The Sandbox,,,,pdf+fetch
-158,,Grass,,,,pdf+fetch
-159,,Chiliz,,,,pdf+fetch
-160,,BUILDon,,,,pdf+fetch
-161,,AWE,,,,pdf+fetch
-162,,Vision,,,,pdf+fetch
-163,,eCash,,,,fetch_only
-164,,Fartcoin,,,,fetch_only
-165,,AIOZ Network,,,,fetch_only
-166,,Sonic,,,,fetch_only
-167,,1inch,,,,fetch_only
-168,,GEODNET,,,,fetch_only
-169,,Humanity,,,,pdf+fetch
-170,,edgeX,,,,pdf+fetch
-171,,SuperVerse,,,,pdf+fetch
-172,,ApeCoin,,,,pdf+fetch
-173,,DeXe,,,,pdf+fetch
-174,,SafePal,,,,pdf+fetch
-175,,ZKsync,,,,pdf+fetch
-176,,Golem,,,,pdf+fetch
-177,,Aethir,,,,pdf+fetch
-178,,MultiversX,,,,pdf+fetch
-179,,Genius Terminal,,,,pdf+fetch
-180,,Prom,,,,pdf+fetch
-181,,Cash Cat,,,,pdf+fetch
-182,,Horizen,,,,pdf+fetch
-183,,Reserve Rights,,,,fetch_only
-184,,Plume,,,,fetch_only
-185,,0G,,,,fetch_only
-186,,DeepBook Protocol,,,,fetch_only
-187,,GMX,,,,fetch_only
-188,,RedStone,,,,fetch_only
-189,,Orca,,,,pdf+fetch
-190,,dYdX,,,,pdf+fetch
-191,,Dog (Bitcoin),,,,pdf+fetch
-192,,Gala,,,,pdf+fetch
-193,,peaq,,,,pdf+fetch
-194,,0x Protocol,,,,pdf+fetch
-195,,Qtum,,,,pdf+fetch
-196,,Walrus,,,,pdf+fetch
-197,,FTX Token,,,,pdf+fetch
-198,,Four,,,,pdf+fetch
-199,,Tagger,,,,pdf+fetch
-200,,Wormhole,,,,pdf+fetch
+rank,name,symbol,market_cap_usd,price_usd
+1,Bitcoin,BTC,1523116991756.75,75746.93
+2,Ethereum,ETH,273111454901.01,2235.05
+3,Tether USDt,USDT,176779624097.24,0.9986
+4,BNB,BNB,91152637047.50,693.12
+5,XRP,XRP,74827536344.42,1.1781
+6,USDC,USDC,70395512275.36,0.9998
+7,Solana,SOL,53223561474.49,90.06
+8,TRON,TRX,30209494858.70,0.3179
+9,Zcash,ZEC,22380984925.75,1320.17
+10,Hyperliquid,HYPE,19854443761.08,78.45
+11,Monero,XMR,11490811385.50,610.32
+12,Dogecoin,DOGE,11331599192.85,0.07234
+13,UNUS SED LEO,LEO,8631801143.11,9.3838
+14,Chainlink,LINK,8112849184.88,10.84
+15,Cardano,ADA,6772349806.40,0.1839
+16,Stellar,XLM,5417701027.39,0.1532
+17,Bitcoin Cash,BCH,5301739835.22,263.59
+18,Ethena USDe,USDe,4919819933.95,0.9991
+19,NEAR Protocol,NEAR,4863382189.08,3.7096
+20,Dai,DAI,4485327634.30,0.9997
+21,Uniswap,,4290711376.98,6.8771
+22,Litecoin,,4087436860.13,52.54
+23,Canton,,3767530128.61,0.09416
+24,Avalanche,,3699482456.78,8.3295
+25,Sui,,3592504125.50,0.868
+26,World Liberty Financial USD,,3490866230.42,0.9978
+27,Gram (prev. Toncoin),,3138355107.56,1.1003
+28,Tether Gold,,3034572089.21,4049.21
+29,Hedera,,2994183690.50,0.06755
+30,PayPal USD,,2789521661.27,0.9996
+31,Global Dollar,,2723245503.92,0.9999
+32,Ripple USD,,2687059759.41,0.9999
+33,Shiba Inu,,2673739268.26,0.00000454
+34,Bittensor,,2610837335.45,223.14
+35,Cronos,,2529959688.25,0.04984
+36,Quant,,2340501517.71,193.87
+37,Ethena,,2207832836.66,0.1635
+38,OKB,,2207395390.20,105.11
+39,Pepe,,2060449908.96,0.00000498
+40,Aave,,2016352611.67,130.59
+41,Aster,,1891863599.50,0.6829
+42,MemeCore,,1870972095.83,0.8153
+43,PAX Gold,,1815410679.17,4054.75
+44,Ondo,,1803510589.49,0.3704
+45,Pump.fun,,1795420672.78,0.003911
+46,United Stables,,1609869632.41,0.9989
+47,Polkadot,,1560815401.08,0.9123
+48,USDD,,1523075738.85,0.9989
+49,Sky,,1520895797.10,0.06494
+50,Mantle,,1477044688.71,0.4473
+51,World Liberty Financial,,1473392535.61,0.04636
+52,Internet Computer,,1356263445.32,2.4294
+53,Worldcoin,,1286382352.24,0.3435
+54,Bitget Token,,1213798411.03,1.7340
+55,JUST,,1148380722.53,0.1432
+56,Morpho,,1136808950.82,2.1095
+57,Arbitrum,,1134760600.71,0.1646
+58,Ethereum Classic,,1113966498.33,7.0085
+59,Venice Token,,1021500324.00,20.77
+60,GateToken,,1007007726.89,9.6179
+61,KuCoin Token,,994139115.33,7.1185
+62,Polygon (prev. MATIC),,987155672.18,0.09273
+63,Algorand,,866289517.20,0.09543
+64,Pi,,851153281.92,0.07495
+65,Kaspa,,831799967.24,0.02992
+66,Lighter,,830730870.08,3.3229
+67,Injective,,827754351.38,8.2799
+68,Render,,819597594.92,1.5799
+69,Jupiter,,808177740.66,0.2435
+70,Cosmos,,749320797.89,1.3875
+71,Filecoin,,689821372.26,0.8159
+72,XDC Network,,670348986.95,0.0312
+73,LayerZero,,661844139.91,1.6325
+74,Aero,,659876615.58,0.6127
+75,Stacks,,651025609.90,0.3461
+76,Midnight,,644563829.55,0.03881
+77,PancakeSwap,,629526560.48,1.9178
+78,Dash,,603902437.06,46.85
+79,ether.fi,,561676013.52,0.5818
+80,Aptos,,533921868.37,0.6039
+81,Pyth Network,,522807355.21,0.06639
+82,币安人生,,511154546.17,0.5112
+83,Flare,,503175547.33,0.005735
+84,TrueUSD,,494018952.19,0.999
+85,Raydium,,483297121.10,1.7902
+86,Nexo,,480009584.80,0.7429
+87,VeChain,,466349424.80,0.005424
+88,EURC,,450914277.29,1.1141
+89,Stable,,446740851.29,0.02482
+90,Celestia,,430315296.05,0.4348
+91,Pieverse,,417966505.76,1.3916
+92,Curve DAO Token,,417026934.86,0.2634
+93,Pudgy Penguins,,411574006.19,0.006547
+94,Kite,,402972198.70,0.1096
+95,Virtuals Protocol,,373983804.87,0.5675
+96,Sei,,359976240.86,0.04675
+97,Artificial Superintelligence Alliance,,356734666.66,0.1469
+98,BitTorrent [New],,342655617.93,0.00000035
+99,Bitcoin SV,,341297484.41,16.97
+100,OFFICIAL TRUMP,,339233069.70,1.2035
+101,SPX6900,,336347083.26,0.3613
+102,Starknet,,312780361.83,0.04081
+103,Falcon Finance,,306206175.75,0.08635
+104,Tezos,,302400999.76,0.2747
+105,Sun [New],,299215075.29,0.01557
+106,Gnosis,,297288275.09,112.63
+107,Pendle,,289846311.27,1.6664
+108,First Digital USD,,282761774.99,0.9964
+109,Plasma,,274366845.51,0.05763
+110,Lido DAO,,270218194.45,0.3257
+111,Bonk,,249645268.31,0.00000284
+112,Optimism,,240921792.63,0.1052
+113,Immutable,,238793275.97,0.1194
+114,Conflux,,228225937.78,0.04344
+115,Terra Classic,,225513009.55,0.00004087
+116,AINFT,,225153709.15,0.00000023
+117,Decred,,222270336.00,12.57
+118,Kaia,,212994270.79,0.03297
+119,The Graph,,212115306.71,0.01922
+120,Arweave,,209892200.12,3.1970
+121,FLOKI,,206002843.08,0.00002163
+122,Kamino,,203429373.67,0.0343
+123,Monad,,200700515.95,0.01697
+124,Beam,,200050833.23,0.003976
+125,Compound,,199869975.89,19.99
+126,Akash Network,,197825667.50,0.6603
+127,Fluid,,195744549.97,2.3387
+128,Ethereum Name Service,,195388524.05,4.6181
+129,THORChain,,192122963.99,0.5836
+130,Jito,,187724978.90,0.3469
+131,Basic Attention Token,,187644242.07,0.1255
+132,Zebec Network,,186121466.20,0.001861
+133,Convex Finance,,185260485.98,1.8529
+134,JasmyCoin,,182159782.75,0.003684
+135,EigenCloud,,175500941.68,0.1723
+136,IOTA,,174766886.76,0.03699
+137,Zama,,173781867.70,0.06852
+138,Maple Finance,,171657776.82,0.1441
+139,Trust Wallet Token,,170860720.31,0.3975
+140,OriginTrail,,170045064.12,0.3401
+141,SOON,,164846654.14,0.2624
+142,dogwifhat,,163484389.02,0.1637
+143,Cap,,156339354.43,0.1002
+144,Telcoin,,155160958.45,0.001658
+145,GoMining,,154032571.53,0.3827
+146,Meteora,,152970566.79,0.2744
+147,Theta Network,,148171543.66,0.1482
+148,Axie Infinity,,148052964.27,0.8431
+149,Decentraland,,142167260.31,0.07159
+150,Onyxcoin,,141917502.28,0.003513
+151,MX Token,,141311572.51,1.5387
+152,Vaulta,,134835303.42,0.08035
+153,Neo,,134244191.43,1.9031
+154,Sentient,,133346936.16,0.01842
+155,Useless Coin,,131573474.06,0.1317
+156,Pons,,130159170.49,0.1941
+157,The Sandbox,,126775462.62,0.04316
+158,Grass,,122364739.97,0.5017
+159,Chiliz,,121613118.46,0.01147
+160,BUILDon,,120784743.70,0.1208
+161,AWE,,120420741.91,0.062
+162,Vision,,120287924.86,0.0328
+163,eCash,,118539546.27,0.0000059
+164,Fartcoin,,118361027.21,0.1184
+165,AIOZ Network,,113570639.71,0.0881
+166,Sonic,,112104465.88,0.03893
+167,1inch,,111392751.30,0.07808
+168,GEODNET,,111261398.81,0.2356
+169,Humanity,,110259475.49,0.05316
+170,edgeX,,110166791.99,0.3148
+171,SuperVerse,,109193465.57,0.1672
+172,ApeCoin,,108902764.92,0.1089
+173,DeXe,,108827453.30,1.2997
+174,SafePal,,108723531.43,0.2174
+175,ZKsync,,106886627.81,0.00954
+176,Golem,,106872099.41,0.1069
+177,Aethir,,100431831.02,0.004989
+178,MultiversX,,99949067.85,3.2118
+179,Genius Terminal,,99401440.58,0.2964
+180,Prom,,98010572.10,5.3704
+181,Cash Cat,,96636860.01,0.09664
+182,Horizen,,95738886.22,5.1799
+183,Reserve Rights,,93500439.45,0.001495
+184,Plume,,92664090.65,0.01359
+185,0G,,90144257.98,0.1502
+186,DeepBook Protocol,,88784696.77,0.01476
+187,GMX,,87216367.42,8.1548
+188,RedStone,,85201230.87,0.1499
+189,Orca,,83745085.74,1.3774
+190,dYdX,,82373322.29,0.09736
+191,Dog (Bitcoin),,81901025.62,0.000819
+192,Gala,,81328769.38,0.001591
+193,peaq,,78661832.56,0.03028
+194,0x Protocol,,77916583.90,0.09184
+195,Qtum,,77611386.73,0.7312
+196,Walrus,,77554226.36,0.02904
+197,FTX Token,,76608314.69,0.2329
+198,Four,,76320797.20,0.1999
+199,Tagger,,76285450.98,0.0007037
+200,Wormhole,,76126875.52,0.0113

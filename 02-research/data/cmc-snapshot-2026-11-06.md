@@ -10,30 +10,29 @@
 
 ## How it was retrieved
 
-1. **Author's PDF.** The author printed the page to PDF in Chrome on 2026-11-10 05:22 UTC (9:22 PM Pacific, 2026-11-09). It is 13 pages, image-only, with no text layer. It is kept **PRIVATE** and not committed, following the copyrighted-PDF rule in `AI_USE.md`. Claude read it page by page.
-2. **Direct fetch.** On 2026-11-10, Claude (Opus 5.5) fetched the live snapshot URL with its web-fetch tool. The tool returns the page through a summarizing model, not raw HTML.
-3. **Failed attempts.** A scheduled run on 2026-11-07 could not reach the page (unapproved fetch, no search hit). A fetch of the Archive copy on 2026-11-10 was blocked by the tool.
-
-## What the page provides
-
-- The page loads 200 rows, followed by a "Load More" button.
-- **Rows 1–20** show the printed rank, symbol, market cap and price. Every value in these rows matches between the PDF and the fetch.
-- **Rows 21–200** show the name only. No rank, symbol, market cap or price is rendered for them, in either the PDF or the fetch. The page appears to load these figures lazily as the user scrolls.
+1. **Source of record: the author's PDF.** The author printed the page from Chrome on 2026-11-10 at 05:35 UTC (9:35 PM Pacific, 2026-11-09), after scrolling so all 200 rows loaded. It is 12 pages, image-only. It is kept **PRIVATE** and not committed, following the copyrighted-PDF rule in `AI_USE.md`.
+2. **First extraction pass.** Claude (Opus 5.5) rendered the PDF at 300 dpi and ran OCR (tesseract) over each full page.
+3. **Visual check.** Claude read every page image against the OCR output. Seven OCR errors were corrected from the image:
+   - ranks 84, 111, 112 and 171 were misread or dropped;
+   - the market caps for ranks 49 and 62 had punctuation errors;
+   - the price for rank 138 was misread.
+4. **Independent second pass.** Claude rendered the PDF again at 450 dpi and ran OCR on the rank, market-cap and price columns only, restricted to digits. All 200 rows matched the corrected first pass exactly.
+5. **Validation.** Every market cap is well-formed, and market cap strictly decreases with rank. Ranks 1–200 are each present exactly once.
+6. **Superseded first capture.** An earlier PDF (05:22 UTC) and a web fetch had figures for rows 1–20 only. Those 20 rows match this capture exactly. That capture was committed in `48db766` and is replaced by this file.
 
 ## Columns
 
 | Column | Meaning |
 | --- | --- |
-| `list_position` | Row order on the page (1–200). The page is ordered by market cap, but ranks are printed only for rows 1–20. |
-| `rank_printed` | The rank as printed on the page. Blank where none is shown. |
-| `market_cap_usd`, `price_usd` | Copied as printed, with `$` and commas removed. Nothing is rounded or estimated. |
-| `source_check` | `pdf+fetch`: the row appears in both the author's PDF and the fetch. `fetch_only`: the row was hidden in the PDF behind the sticky header or cookie banner at a page break, so only the fetch supports it. |
+| `rank` | As printed on the page. |
+| `name` | As printed. Where the page truncates a name with "…", the full name is taken from the 2026-11-10 web fetch of the same page. The fetch returned "GoМining" (rank 145) with a Cyrillic М; it is recorded here in Latin characters. |
+| `symbol` | Given for ranks 1–20 only. |
+| `market_cap_usd`, `price_usd` | As printed, with `$` and commas removed. Nothing is rounded or estimated. |
 
-## Unreadable or unverified rows
+## Unreadable values
 
-- **Blank data:** symbol, market cap and price are blank for list positions 21–200. The page does not render them.
-- **Fetch-only rows (55 in total):** list positions 25–30, 45–50, 65–70, 84–90, 104–109, 124–129, 144–149, 163–168 and 183–188. These names rest on a single source, which passed through a summarizing model. [VERIFY these against a PDF printed with the cookie banner dismissed.]
-- **Position 145:** the fetch returned "GoМining" with a Cyrillic М. It is recorded here as `GoMining` in Latin characters.
+- **Symbols for ranks 21–200 are blank.** The PDF clips the left edge of the symbol column (for example, "ISDT" for USDT), so the symbol cannot be read in full. Symbols for ranks 1–20 come from the web fetch.
+- No market cap or price value is blank.
 
 ## Not done here
 
