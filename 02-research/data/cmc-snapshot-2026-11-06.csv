@@ -1,0 +1,201 @@
+list_position,rank_printed,name,symbol,market_cap_usd,price_usd,source_check
+1,1,Bitcoin,BTC,1523116991756.75,75746.93,pdf+fetch
+2,2,Ethereum,ETH,273111454901.01,2235.05,pdf+fetch
+3,3,Tether USDt,USDT,176779624097.24,0.9986,pdf+fetch
+4,4,BNB,BNB,91152637047.50,693.12,pdf+fetch
+5,5,XRP,XRP,74827536344.42,1.1781,pdf+fetch
+6,6,USDC,USDC,70395512275.36,0.9998,pdf+fetch
+7,7,Solana,SOL,53223561474.49,90.06,pdf+fetch
+8,8,TRON,TRX,30209494858.70,0.3179,pdf+fetch
+9,9,Zcash,ZEC,22380984925.75,1320.17,pdf+fetch
+10,10,Hyperliquid,HYPE,19854443761.08,78.45,pdf+fetch
+11,11,Monero,XMR,11490811385.50,610.32,pdf+fetch
+12,12,Dogecoin,DOGE,11331599192.85,0.07234,pdf+fetch
+13,13,UNUS SED LEO,LEO,8631801143.11,9.3838,pdf+fetch
+14,14,Chainlink,LINK,8112849184.88,10.84,pdf+fetch
+15,15,Cardano,ADA,6772349806.40,0.1839,pdf+fetch
+16,16,Stellar,XLM,5417701027.39,0.1532,pdf+fetch
+17,17,Bitcoin Cash,BCH,5301739835.22,263.59,pdf+fetch
+18,18,Ethena USDe,USDe,4919819933.95,0.9991,pdf+fetch
+19,19,NEAR Protocol,NEAR,4863382189.08,3.7096,pdf+fetch
+20,20,Dai,DAI,4485327634.30,0.9997,pdf+fetch
+21,,Uniswap,,,,pdf+fetch
+22,,Litecoin,,,,pdf+fetch
+23,,Canton,,,,pdf+fetch
+24,,Avalanche,,,,pdf+fetch
+25,,Sui,,,,fetch_only
+26,,World Liberty Financial USD,,,,fetch_only
+27,,Gram (prev. Toncoin),,,,fetch_only
+28,,Tether Gold,,,,fetch_only
+29,,Hedera,,,,fetch_only
+30,,PayPal USD,,,,fetch_only
+31,,Global Dollar,,,,pdf+fetch
+32,,Ripple USD,,,,pdf+fetch
+33,,Shiba Inu,,,,pdf+fetch
+34,,Bittensor,,,,pdf+fetch
+35,,Cronos,,,,pdf+fetch
+36,,Quant,,,,pdf+fetch
+37,,Ethena,,,,pdf+fetch
+38,,OKB,,,,pdf+fetch
+39,,Pepe,,,,pdf+fetch
+40,,Aave,,,,pdf+fetch
+41,,Aster,,,,pdf+fetch
+42,,MemeCore,,,,pdf+fetch
+43,,PAX Gold,,,,pdf+fetch
+44,,Ondo,,,,pdf+fetch
+45,,Pump.fun,,,,fetch_only
+46,,United Stables,,,,fetch_only
+47,,Polkadot,,,,fetch_only
+48,,USDD,,,,fetch_only
+49,,Sky,,,,fetch_only
+50,,Mantle,,,,fetch_only
+51,,World Liberty Financial,,,,pdf+fetch
+52,,Internet Computer,,,,pdf+fetch
+53,,Worldcoin,,,,pdf+fetch
+54,,Bitget Token,,,,pdf+fetch
+55,,JUST,,,,pdf+fetch
+56,,Morpho,,,,pdf+fetch
+57,,Arbitrum,,,,pdf+fetch
+58,,Ethereum Classic,,,,pdf+fetch
+59,,Venice Token,,,,pdf+fetch
+60,,GateToken,,,,pdf+fetch
+61,,KuCoin Token,,,,pdf+fetch
+62,,Polygon (prev. MATIC),,,,pdf+fetch
+63,,Algorand,,,,pdf+fetch
+64,,Pi,,,,pdf+fetch
+65,,Kaspa,,,,fetch_only
+66,,Lighter,,,,fetch_only
+67,,Injective,,,,fetch_only
+68,,Render,,,,fetch_only
+69,,Jupiter,,,,fetch_only
+70,,Cosmos,,,,fetch_only
+71,,Filecoin,,,,pdf+fetch
+72,,XDC Network,,,,pdf+fetch
+73,,LayerZero,,,,pdf+fetch
+74,,Aero,,,,pdf+fetch
+75,,Stacks,,,,pdf+fetch
+76,,Midnight,,,,pdf+fetch
+77,,PancakeSwap,,,,pdf+fetch
+78,,Dash,,,,pdf+fetch
+79,,ether.fi,,,,pdf+fetch
+80,,Aptos,,,,pdf+fetch
+81,,Pyth Network,,,,pdf+fetch
+82,,币安人生,,,,pdf+fetch
+83,,Flare,,,,pdf+fetch
+84,,TrueUSD,,,,fetch_only
+85,,Raydium,,,,fetch_only
+86,,Nexo,,,,fetch_only
+87,,VeChain,,,,fetch_only
+88,,EURC,,,,fetch_only
+89,,Stable,,,,fetch_only
+90,,Celestia,,,,fetch_only
+91,,Pieverse,,,,pdf+fetch
+92,,Curve DAO Token,,,,pdf+fetch
+93,,Pudgy Penguins,,,,pdf+fetch
+94,,Kite,,,,pdf+fetch
+95,,Virtuals Protocol,,,,pdf+fetch
+96,,Sei,,,,pdf+fetch
+97,,Artificial Superintelligence Alliance,,,,pdf+fetch
+98,,BitTorrent [New],,,,pdf+fetch
+99,,Bitcoin SV,,,,pdf+fetch
+100,,OFFICIAL TRUMP,,,,pdf+fetch
+101,,SPX6900,,,,pdf+fetch
+102,,Starknet,,,,pdf+fetch
+103,,Falcon Finance,,,,pdf+fetch
+104,,Tezos,,,,fetch_only
+105,,Sun [New],,,,fetch_only
+106,,Gnosis,,,,fetch_only
+107,,Pendle,,,,fetch_only
+108,,First Digital USD,,,,fetch_only
+109,,Plasma,,,,fetch_only
+110,,Lido DAO,,,,pdf+fetch
+111,,Bonk,,,,pdf+fetch
+112,,Optimism,,,,pdf+fetch
+113,,Immutable,,,,pdf+fetch
+114,,Conflux,,,,pdf+fetch
+115,,Terra Classic,,,,pdf+fetch
+116,,AINFT,,,,pdf+fetch
+117,,Decred,,,,pdf+fetch
+118,,Kaia,,,,pdf+fetch
+119,,The Graph,,,,pdf+fetch
+120,,Arweave,,,,pdf+fetch
+121,,FLOKI,,,,pdf+fetch
+122,,Kamino,,,,pdf+fetch
+123,,Monad,,,,pdf+fetch
+124,,Beam,,,,fetch_only
+125,,Compound,,,,fetch_only
+126,,Akash Network,,,,fetch_only
+127,,Fluid,,,,fetch_only
+128,,Ethereum Name Service,,,,fetch_only
+129,,THORChain,,,,fetch_only
+130,,Jito,,,,pdf+fetch
+131,,Basic Attention Token,,,,pdf+fetch
+132,,Zebec Network,,,,pdf+fetch
+133,,Convex Finance,,,,pdf+fetch
+134,,JasmyCoin,,,,pdf+fetch
+135,,EigenCloud,,,,pdf+fetch
+136,,IOTA,,,,pdf+fetch
+137,,Zama,,,,pdf+fetch
+138,,Maple Finance,,,,pdf+fetch
+139,,Trust Wallet Token,,,,pdf+fetch
+140,,OriginTrail,,,,pdf+fetch
+141,,SOON,,,,pdf+fetch
+142,,dogwifhat,,,,pdf+fetch
+143,,Cap,,,,pdf+fetch
+144,,Telcoin,,,,fetch_only
+145,,GoMining,,,,fetch_only
+146,,Meteora,,,,fetch_only
+147,,Theta Network,,,,fetch_only
+148,,Axie Infinity,,,,fetch_only
+149,,Decentraland,,,,fetch_only
+150,,Onyxcoin,,,,pdf+fetch
+151,,MX Token,,,,pdf+fetch
+152,,Vaulta,,,,pdf+fetch
+153,,Neo,,,,pdf+fetch
+154,,Sentient,,,,pdf+fetch
+155,,Useless Coin,,,,pdf+fetch
+156,,Pons,,,,pdf+fetch
+157,,The Sandbox,,,,pdf+fetch
+158,,Grass,,,,pdf+fetch
+159,,Chiliz,,,,pdf+fetch
+160,,BUILDon,,,,pdf+fetch
+161,,AWE,,,,pdf+fetch
+162,,Vision,,,,pdf+fetch
+163,,eCash,,,,fetch_only
+164,,Fartcoin,,,,fetch_only
+165,,AIOZ Network,,,,fetch_only
+166,,Sonic,,,,fetch_only
+167,,1inch,,,,fetch_only
+168,,GEODNET,,,,fetch_only
+169,,Humanity,,,,pdf+fetch
+170,,edgeX,,,,pdf+fetch
+171,,SuperVerse,,,,pdf+fetch
+172,,ApeCoin,,,,pdf+fetch
+173,,DeXe,,,,pdf+fetch
+174,,SafePal,,,,pdf+fetch
+175,,ZKsync,,,,pdf+fetch
+176,,Golem,,,,pdf+fetch
+177,,Aethir,,,,pdf+fetch
+178,,MultiversX,,,,pdf+fetch
+179,,Genius Terminal,,,,pdf+fetch
+180,,Prom,,,,pdf+fetch
+181,,Cash Cat,,,,pdf+fetch
+182,,Horizen,,,,pdf+fetch
+183,,Reserve Rights,,,,fetch_only
+184,,Plume,,,,fetch_only
+185,,0G,,,,fetch_only
+186,,DeepBook Protocol,,,,fetch_only
+187,,GMX,,,,fetch_only
+188,,RedStone,,,,fetch_only
+189,,Orca,,,,pdf+fetch
+190,,dYdX,,,,pdf+fetch
+191,,Dog (Bitcoin),,,,pdf+fetch
+192,,Gala,,,,pdf+fetch
+193,,peaq,,,,pdf+fetch
+194,,0x Protocol,,,,pdf+fetch
+195,,Qtum,,,,pdf+fetch
+196,,Walrus,,,,pdf+fetch
+197,,FTX Token,,,,pdf+fetch
+198,,Four,,,,pdf+fetch
+199,,Tagger,,,,pdf+fetch
+200,,Wormhole,,,,pdf+fetch
