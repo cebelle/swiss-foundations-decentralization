@@ -6,7 +6,7 @@
 
 - **Snapshot page:** https://coinmarketcap.com/historical/20261106/ ("Historical Snapshot - 06 November 2026")
 - **Internet Archive copy:** https://web.archive.org/web/20261110052813/https://coinmarketcap.com/historical/20261106/ (saved by the author 2026-11-10 05:28:13 UTC; the Archive marked it "First Archive")
-- **Snapshot time of day:** the page does not state one. [VERIFY with CMC methodology.]
+- **Snapshot time of day:** not published by CMC. Neither the snapshot page nor the historical index (checked 2026-11-10) states one. The snapshot is identified by its date.
 
 ## How it was retrieved
 
