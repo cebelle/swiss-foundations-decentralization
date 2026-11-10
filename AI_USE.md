@@ -52,4 +52,4 @@ Example:
 
 `2026-11-10 · research · Opus 5.5, high · drafted Tier 2 codebook · 02-research/codebook.md · author revised field definitions`
 
-Each session log also opens with a line listing the models used. Entries in `sessions/2026-10-29.md` and `sessions/2026-10-30.md` predate this policy and did not record a model; treat them as "model not recorded." The final disclosure footnote names every model used.
+Each session log also opens with a line listing the models used. Entries in `sessions/2026-10-29.md` and `sessions/2026-10-30.md` predate this policy. The author confirmed on 2026-11-09 that both sessions used Opus 5.5, high (recorded in `sessions/2026-11-09.md`). The final disclosure footnote names every model used.
