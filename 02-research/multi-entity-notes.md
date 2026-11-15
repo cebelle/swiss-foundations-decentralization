@@ -9,7 +9,7 @@
 | Network | Result | Basis |
 | --- | --- | --- |
 | Cardano | **Pass** | The Cardano Foundation's own trademark policy names Cardano™ as its trademark and gives UID CHE-184.477.354. Per USPTO records, CARDANO (reg. 6549522) and ADA (reg. 6375037) are owned by the Cardano Foundation. |
-| TON | **Pass, provisional** | ADGM's announcement says the TON DLT Foundation *complements* the Swiss foundation (Swiss: Europe and the West; ADGM: MENA and APAC). In 2023 the Swiss foundation said it would oversee ecosystem development and publish reports on token distribution. Who holds the treasury today is not stated. [VERIFY] |
+| TON | **Fails since May 2026; kept by author ruling (deviation logged 2026-11-15)** | ADGM's announcement says the TON DLT Foundation *complements* the Swiss foundation (Swiss: Europe and the West; ADGM: MENA and APAC). In 2023 the Swiss foundation said it would oversee ecosystem development and publish reports on token distribution. Who holds the treasury today is not stated. [VERIFY] |
 | ASI Alliance | **Fail → deviation** | The Alliance's own entity is Superintelligence Alliance Ltd (Singapore). The member foundations stay separate, and FET (Fetch.ai), not AGIX, became the ASI token. No source shows the SingularityNET Foundation holding the ASI treasury, IP or marks. |
 
 **Splits (author decision, 2026-11-15).** The fact that a network is split across several entities is relevant and will be discussed in the paper: noted at minimum, possibly more. The rule already requires every entity to be recorded ("all of them are coded and the primary one is identified"), so recording splits needs no codebook change. Analysing them is Phase 4 work.
@@ -40,6 +40,9 @@ Founding years come from secondary sources unless a register is cited. Every yea
 
 - **Sequence:** an informal initiative, then the Swiss Stiftung (2023), then an ADGM foundation about fifteen months later (2024).
 - **Open point:** ADGM's announcement says the TON DLT Foundation advances "core development." If the treasury or IP moved to Abu Dhabi, the rule's test would point there. Check before coding.
+- **2026-11-15 residue pass: a third entity.** On 4 May 2026 Telegram replaced the TON Foundation as the network's driving force and largest validator (about 2.2M staked). That's step 3 of Durov's "Make TON Great Again" (MTONGA) roadmap. CoinShares names the operating entity as Telegram FZ-LLC (Dubai). ton.org no longer mentions the Foundation; its only governance link is "MTONGA," pointing to Durov's channel. The Foundation's own site (ton.foundation, accessed 2026-11-15) says it "empowers TON projects without controlling TON technology" and lists a two-person council (Steve Yun, Barbara Schüpbach), which matches the register. Zefix: CEO and council member Maximilian Crown left (SHAB 20.05.2026), and council president Manuel Stotz left earlier (SHAB 16.09.2025). The Foundation may hold the TON mark: a US application in its name (serial 79435217, filed 22.05.2025) is pending [VERIFY TSDR]. The treasury holder is still undisclosed [VERIFY].
+- **Effect on the test:** since May 2026, Telegram funds core development. On the rule's terms Telegram is now the stronger candidate, and the snapshot (2026-11-06) postdates the change. **Author ruling (2026-11-15):** keep TON in the coded Tier 2 sample and log a deviation (as with ASI). Code it as of the snapshot date, with Telegram and the ADGM TON DLT Foundation under F8. The 2026 shift of control is written up separately in `ton-case-study.md`.
+- **Sequence (updated):** informal initiative → Swiss Stiftung (2023) → ADGM DLT Foundation (2024) → Telegram takes over operations (2026).
 
 ## ASI Alliance (FET)
 

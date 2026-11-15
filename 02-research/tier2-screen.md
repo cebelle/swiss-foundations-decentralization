@@ -1,6 +1,6 @@
 # Tier 2 screen — pass 1
 
-**Label:** PUBLIC (approved by the author 2026-11-15) · **Date:** 2026-11-15 · **Rule:** `sampling-rule.md` (Tier 2 and "Primary steward") · **Pool:** the 100 networks in `tier1-list.md` · **Data:** `data/tier2-screen.csv`
+**Label:** PUBLIC (pass 1 approved by the author 2026-11-15; residue update pending approval) · **Date:** 2026-11-15 · **Rule:** `sampling-rule.md` (Tier 2 and "Primary steward") · **Pool:** the 100 networks in `tier1-list.md` · **Data:** `data/tier2-screen.csv`
 
 Claude (Opus 5.5, high effort), a disclosed AI tool, ran this pass. The author approved it for commit on 2026-11-15. All Swiss hits are confirmed in Zefix, and the author has ruled on the flagged rows.
 
@@ -11,17 +11,16 @@ Claude (Opus 5.5, high effort), a disclosed AI tool, ran this pass. The author a
 | Screen status | Count |
 | --- | --- |
 | Swiss Stiftung, primary steward (Tier 2) | 10 |
-| Swiss entity of another form (recorded, not Tier 2) | 3 |
-| Non-Swiss steward identified | 50 |
-| No steward entity | 5 |
-| Steward not named in any source found | 5 |
-| Not Swiss by register check; steward still to name | 27 |
+| Swiss entity of another form (recorded, not Tier 2) | 4 |
+| Non-Swiss steward identified | 72 |
+| No steward entity | 7 |
+| Steward not named in any source found | 7 |
 
-The 27 rows in the last line do not affect who is in Tier 2. They still need a named steward and source for the record (and for Tier 1, where they overlap).
+**Residue pass (2026-11-15).** The 27 rows that were "not Swiss by register check; steward still to name" now each have a named steward (or "none" / "not found") and a source. One of them, LayerZero, turned out to have a Swiss Verein (see below), so the Swiss-other-form count rises to 4. Tier 2 is unchanged at 10. TON is kept by author ruling, with a deviation logged.
 
 ## Swiss Stiftung candidates
 
-None of these is confirmed in Zefix yet. UIDs and dates come from register mirrors (moneyhouse.ch, fundraiso.com, onlineinfo.ch), which republish Zefix and SHAB data, or from GLEIF.
+All ten are confirmed in Zefix (2026-11-15). Candidates were first found in register mirrors (moneyhouse.ch, fundraiso.com, onlineinfo.ch) or GLEIF. *(Corrected 2026-11-15 residue pass: the earlier text said none was confirmed yet, which pass 1 had already overtaken.)*
 
 | Network | Foundation as registered | Seat | UID | Flag |
 | --- | --- | --- | --- | --- |
@@ -43,6 +42,7 @@ The rule records these but keeps them out of Tier 2.
 - **Pyth Network:** Pyth Data Verein (Pyth Data Association), a Verein in Baar (CHE-325.103.020).
 - **Bitcoin SV:** BSV Association, a Verein in Zug (CHE-427.008.338).
 - **Curve:** Swiss Stake AG in Zug (CHE-482.934.709). It owns and controls all Curve IP, and Curve has no foundation, so it is the steward. It is a company, so it is not in Tier 2.
+- **LayerZero:** ZRO Verein (ZRO Association, dba "ZRO Foundation", publicly the LayerZero Foundation), a Verein in Baar (CHE-212.005.749; articles 28.04.2022; entered SHAB 29.12.2022). Its registered purpose names the LayerZero network, and it holds the Foundation's 383M ZRO allocation. Found 2026-11-15 in the residue pass. The network-name search missed it because "ZRO" shares no word with "LayerZero".
 
 ## Author's rulings (2026-11-15)
 
@@ -52,14 +52,17 @@ The rule records these but keeps them out of Tier 2.
 ## Method
 
 - **Steward.** Taken from the project's own documents (terms, imprint, legal notice, foundation site) where found. Where only a secondary source was found (Blockworks Token Transparency filings, DeFiLlama, register mirrors), the CSV says so in `source_kind`.
-- **Swiss check.** Every Swiss hit was searched in register mirrors by name. Then all 100 network names (plus key entity names such as DFINITY, Interchain, SingularityNET and Hashgraph) were searched in Zefix itself, keeping active Stiftungen and Vereine whose names contain the term. The only relevant hits were the 13 entities listed here, plus The Hashgraph Association (a Verein in Freienbach related to Hedera, not its steward). Limit: a foundation whose registered name shares no word with its network would not appear.
+- **Swiss check.** Every Swiss hit was searched in register mirrors by name. Then all 100 network names (plus key entity names such as DFINITY, Interchain, SingularityNET and Hashgraph) were searched in Zefix itself, keeping active Stiftungen and Vereine whose names contain the term. The only relevant hits were the 13 entities listed here, plus The Hashgraph Association (a Verein in Freienbach related to Hedera, not its steward). Limit: a foundation whose registered name shares no word with its network would not appear. **Residue pass (2026-11-15):** every steward entity named in the residue (and the named entities of the earlier non-Swiss rows) was also searched in Zefix by entity name. That found ZRO Verein (LayerZero). The only other hits were companies that are not stewards (Chainlink Labs Swiss GmbH, Luzern; VeChain Switzerland SA, Lugano) and an unrelated Verein (Shielded Labs, Zug, which belongs to Zcash, not Midnight).
 - **Zefix.** Mirrors were used to find candidates. Confirmation was done in Zefix itself (built-in browser, 2026-11-15). No deviation.
+
+## TON: author ruling (2026-11-15)
+
+On 4 May 2026, six months before the snapshot, Telegram replaced the TON Foundation as the network's driving force and largest validator. Since then ton.org has stopped naming the Foundation. The Foundation's own site says it does not control TON technology, and its council is down to two. Its CEO left the register on 20.05.2026. The Foundation may still hold the TON mark (a US application in its name is pending [VERIFY]). The treasury holder is undisclosed [VERIFY]. On the rule's test, Telegram (which funds core development) now looks like the stronger candidate. **Ruling:** TON stays in the coded Tier 2 sample, logged as a deviation as with ASI, and gets a case-study write-up (`ton-case-study.md`). The network held itself out as decentralized throughout, which makes the shift of control evidence for the research question. The sample stays at 10.
 
 ## Still to do
 
-- Name the steward and source for the 27 register-checked rows.
-- Screen any new Swiss hits from the remaining networks in Zefix the same way.
-- Resolve the [VERIFY] rows in the CSV.
+- Resolve the [VERIFY] rows in the CSV (40 rows carry at least one). Most are seats of non-Swiss foundations. None of them can add a Tier 2 Stiftung: every steward name was run through Zefix.
+- The name-search limit noted under Method has now bitten once (LayerZero). The 2026-11-15 sweep also searched each named steward entity, not just network names. A steward whose name is still unknown (Mantle, SUN, MemeCore and the other NOT_FOUND rows) could still be Swiss under an unrelated name.
 
 ## Observations from the register (for the author)
 

@@ -33,6 +33,7 @@ Adopted 2026-11-09 (see `DEVIATIONS.md`). Two Anthropic models are used: **Claud
 | 3 Research | Tier 2 codebook (pre-registered; locks coding) | Opus | High |
 | | Tier 1 list (apply exclusions to the snapshot) | Opus | Medium |
 | | Tier 2 screen (find Swiss-foundation stewards in the pool; confirm in Zefix). Row added 2026-11-14, author's call: err toward more effort | Opus | High |
+| | Deeds retrieval (get each Tier 2 Stiftungsurkunde from the cantonal register; feeds the law layer). Row added 2026-11-15, author's call | Opus | High |
 | | Coding each Tier 2 foundation | Opus | Medium |
 | | Ambiguous coding calls (e.g., Art. 86a ZGB reservations, unclear supervisor) | Fable | High |
 | | US-law source map | Opus | High |
