@@ -1,6 +1,6 @@
 # TON case study: scope and research questions
 
-**Label:** PUBLIC · **Date:** 2026-11-15 · **Status:** research in progress (Q1, Q2, Q5–Q7 facts gathered 2026-11-15; Q3–Q4 await Fable); no argument yet · **Deviation:** logged 2026-11-15 in `DEVIATIONS.md`
+**Label:** PUBLIC · **Date:** 2026-11-15 · **Status:** research in progress (Q1, Q2, Q5–Q7 facts gathered 2026-11-15; Q3–Q4 legal note drafted 2026-11-15 and held privately, see below); no argument yet · **Deviation:** logged 2026-11-15 in `DEVIATIONS.md`
 
 ## Why TON
 
@@ -49,7 +49,7 @@ The thesis does not depend on where control sits. A supervisor's final veto and 
 
 1. **Assets.** Which Foundation assets moved to Telegram or Telegram-linked entities: the ton.org domain (reported as Foundation-owned in 2023 [VERIFY]), GitHub organisations, trademarks (US application 79435217 in the Foundation's name; verified 2026-11-15, see Q1), treasury or Toncoin holdings? On what terms?
 2. **Authority.** Who decided? Did the Stiftung council pass a resolution? Did the deed or any regulations (*Reglemente*) need to change? (The deed has not been amended since 2023 per the Zug register.)
-3. **Supervisor.** Under Arts. 84 and 84a ZGB, did any transfer require EDI notice or approval? Did EDI act? [VERIFY law and practice] This is the direct test of the thesis claim about the final veto.
+3. **Supervisor.** Did the 2026 change require EDI notice or approval, and did EDI act? The provisions to test are Art. 84 para. 2 ZGB (use of assets), Art. 83d ZGB (organisational defects), Arts. 85–86c ZGB (changes to the deed), Arts. 88–89 ZGB (dissolution) and Arts. 86–87 FusG (transfers of the estate). [VERIFY practice] This is the direct test of the thesis claim about the final veto. *Corrected 2026-11-15: this question first cited "Arts. 84 and 84a ZGB". Art. 84a deals with over-indebtedness and insolvency and does not govern transfers.*
 4. **Purpose.** Is a Stiftung whose network is now run by a company still pursuing its registered purpose? What could the supervisor do about it (Art. 84 ZGB supervision; Art. 86a purpose change; Art. 88 dissolution)? [VERIFY]
 5. **Token holders and validators.** Did on-chain governance (validator config votes) ratify any of the changes? The April 2026 fee cut went to a validator vote.
 6. **ADGM entity.** What did the TON DLT Foundation hold or do, and did anything move through it?
@@ -75,6 +75,8 @@ The three layers are kept apart. **Law** is the deed, the register and statutes.
 - **Register (law layer):** the deed has not been amended since 2023. The only post-May entry is CEO Crown's departure (SHAB 20.05.2026), which leaves a council of two. Whether any of this needed council action under the deed or *Reglemente*: read the deed after OCR.
 
 ### Q3 and Q4. Facts for the Fable session (no analysis here)
+
+**Update, 2026-11-15 (Fable 5.2, High):** a legal note on Q3–Q4 has been drafted from the deed, the statute text on Fedlex and case law. It quotes the deed, so it is held privately until the author decides whether deed material is published. One public fact from that work: the commercial register (Zefix, read 2026-11-15) shows no entry after SHAB 20.05.2026, so the council has stood at two members for about six months.
 
 - No public EDI act was found. EDI supervisory decisions are not generally published [VERIFY whether the ESA publishes any].
 - **The factual premise of Q3 is not established.** No source shows a Stiftung asset changing hands. The mark stays with the Foundation, the domain holder is unknown, and the treasury is undisclosed. Telegram took the operating role by staking, shipping code and announcing; we found no transfer from the Stiftung. Whether the supervisor's reach (Arts. 84, 84a ZGB) extends to a change like this is a legal question for Fable.
