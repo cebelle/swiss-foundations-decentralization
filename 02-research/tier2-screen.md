@@ -61,8 +61,21 @@ On 4 May 2026, six months before the snapshot, Telegram replaced the TON Foundat
 
 ## Still to do
 
-- Resolve the [VERIFY] rows in the CSV (40 rows carry at least one). Most are seats of non-Swiss foundations. None of them can add a Tier 2 Stiftung: every steward name was run through Zefix.
+- Resolve the [VERIFY] rows in the CSV. **Done in part on 2026-11-16 (see below): 9 rows still carry one.** None of them can add a Tier 2 Stiftung: every steward name was run through Zefix.
 - The name-search limit noted under Method has now bitten once (LayerZero). The 2026-11-15 sweep also searched each named steward entity, not just network names. A steward whose name is still unknown (Mantle, SUN, MemeCore and the other NOT_FOUND rows) could still be Swiss under an unrelated name.
+
+## [VERIFY] pass (2026-11-16)
+
+Claude (Opus 5.5, high effort) searched the seat and legal form of the non-Swiss stewards in the 40 rows that carried a [VERIFY]. Tier 2 is unchanged, and no new Swiss entity turned up.
+
+- **31 rows resolved.** Where a source was found, the CSV now gives the value, and the note names the source and the date read. Where nothing was found, the field says `not found (searched 2026-11-16)`. That is a recorded result, not an open item.
+- **9 rows still carry a [VERIFY].** Two have conflicting sources (Plasma: Cayman or BVI issuer; Immutable: Cayman or BVI for Digital Worlds NFTS Ltd.). Six were not searched in this pass (Bitcoin wording, MemeCore, Mantle, Pieverse, SUN, and two Midnight affiliates). The TON row's open item is the treasury holder, which belongs to the case study.
+- **Changes worth noting:**
+  - **Dogecoin.** The Foundation operates through two companies registered in England and Wales, per its own site. The 2021 Liechtenstein plan is not reflected.
+  - **Bittensor.** In 2026 core development moved to a Rao Foundation, and repositories moved to Latent 11.
+  - **Polygon.** One profile calls the Polygon Foundation Swiss. Zefix shows no Polygon Stiftung or Verein, so it is not treated as Swiss.
+  - **VeChain.** A register mirror shows a VeChain Foundation Stiftung in Liechtenstein (2024). It is not Swiss, and the MiCA white paper does not name it as steward.
+- **Sources** are mostly project documents, GLEIF/LEI records, and USPTO owner records read through aggregators. Rows that rest on one secondary source say so.
 
 ## Observations from the register (for the author)
 
