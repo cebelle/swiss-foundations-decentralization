@@ -33,3 +33,29 @@ The codebook (section 6) sends a flagged value to a Fable recode before the auth
 10. **T2-8. Web 3.0 Technologies Stiftung, F3.** Code `PURPOSE`. The deed reserves a change of purpose with a general reference to Art. 86a ZGB (Art. 2) and predates 1 January 2024. Earliest use about June 2027. Treated like T2-4, except that here the founder is named in the deed. Flag closed. Whether the ten years run from the register entry or the SHAB publication date is a legal question still marked [VERIFY]; it can move the date but not the value.
 11. **T2-9. SingularityNET Foundation, F5.** Code the deed as written: dissolution is a council decision (Arts. 8(3)(g), 20(3)). Note that under Art. 88 ZGB the supervisory authority decides on dissolution. This follows the approach of T2-3: code the deed's words and record the statute beside them. Flag closed.
 12. **T2-10. The Open Network Stiftung, F1 (practice).** Code `2`, the number of council members in the commercial register, and note that it is below the deed's minimum of three (Art. 5(1)). Flag closed. Whether this is a case for the authority under Art. 83d ZGB is left to the TON legal note.
+
+## Rulings of 2026-11-17 (evening)
+
+Made without a Fable recode, under the 2026-11-17 deviation. Claude (Opus 5.5, medium effort) proposed the values and set out the options.
+
+**On the differences between the first pass and the Fable calls (`tier2-first-pass.md`)**
+
+13. **T2-11. The Open Network Stiftung and SingularityNET Foundation, F5.** Code both deeds as written. Note that they depart from the common pattern, in which remaining assets go to tax-exempt bodies with a similar purpose. TON lets the council decide how any surplus is used (Art. 13). SingularityNET lets the council name a beneficiary with the same or a similar purpose, with no tax-exemption or Swiss requirement (Art. 20).
+14. **T2-12. SingularityNET Foundation, F5, who dissolves.** Closed by T2-9.
+15. **T2-13. DFINITY Stiftung, F5.** Code from the German text, which controls. Note that the English version adds that recipients must be "based in Switzerland". The divergence between the two language versions is recorded as a finding: readers of the English text could be misled about where the assets go.
+16. **T2-14. CARDANO Stiftung, F3.** Code `NONE`, from the current deed. Note the history: the register recorded an Art. 86a purpose reservation in 2016 and struck it in 2020, after the deed amendment of 25.03.2020.
+
+**On the practice-layer flags**
+
+17. **T2-15. F4 (practice): protocol voting that does not reach the foundation.** Code `NOT_FOUND`, with a note on the protocol voting. This applies to Solana, NEAR, TON, Web 3.0 Technologies, Interchain and Tezos. The codebook uses `NONE` only where a source says there is no role, and these sources say nothing about the foundation.
+18. **T2-16. CARDANO Stiftung, F2a (practice).** Code `CO-OPTATION`, with a note. The board made the formal appointments in 2021; the selection process was run by a law firm the supervisor had engaged.
+19. **T2-17. CARDANO Stiftung, F2b (practice).** Code `MIXED`, with a note that records the supervisor's part: its 2021 intervention led to the replacement of the whole board. The supervisor has stepped in before.
+20. **T2-18. CARDANO Stiftung, F4 (practice).** Code `NONE`, with a note on the Foundation's 2025 statement that it intends to involve the community in electing future board members. No mechanism exists yet.
+21. **T2-19. DFINITY Stiftung, F4 (practice).** Code `NONE`. The Foundation states that governance of the network is not governance of the Foundation. Who wrote the forum post is still to be confirmed [VERIFY].
+22. **T2-20. SingularityNET Foundation, F4 (practice).** Code `SELF_COMMITMENT`, with a note that the elected Supervisory Council is advisory.
+23. **T2-21. NEAR Stiftung, F1 (practice).** Recording both counts is enough: four in the register on 17.11.2026, and five in the Foundation's announcement of 15.10.2026.
+24. **T2-22. Stiftung Ethereum, F8 (practice).** Code `NOT_FOUND`. The 2026 spin-out of a for-profit entity is recorded in a note; it is reported only in the press, which is not a codebook practice source.
+
+**On the random check (codebook section 6.4)**
+
+25. **Random check.** Every record carried at least one flag, so the pool of "records with no flags" was empty. Draw 20% of all ten records, rounded up (two), with the codebook's seed and sort order, and review every unflagged value in the records drawn. Logged in `DEVIATIONS.md` (2026-11-17). The draw (`02-research/scripts/tier2_random_check.py`; output in `02-research/data/tier2-random-check-output.txt`) gave Stiftung Ethereum and Solana Stiftung.

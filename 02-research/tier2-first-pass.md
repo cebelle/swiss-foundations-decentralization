@@ -113,8 +113,11 @@ Several networks have protocol-level on-chain voting (Solana, Cardano, NEAR's Ho
 
 **New flags from this pass: 14**, listed in the CSV. Under the 2026-11-17 deviation they go to the author without a Fable recode.
 
+## Rulings on this pass
+
+The author ruled on the four differences and the practice-layer flags on 2026-11-17 (T2-11 to T2-22 in `tier2-rulings.md`). One flag remains open: DFINITY F8, which waits on the Geneva register extract [VERIFY].
+
 ## Not yet done
 
-- Author rulings on the 14 practice-layer flags.
+- The random check: Stiftung Ethereum and Solana Stiftung were drawn (see `tier2-rulings.md`, item 25). The author reviews their unflagged values.
 - Source notes per foundation (`02-research/source-notes/`).
-- The random check (codebook section 6.4). Every record now carries at least one flag, so the pool of "records with no flags" is empty. The author needs to decide how to apply the check before the draw is made.

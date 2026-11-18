@@ -1,0 +1,3 @@
+records: 10; drawn: 2
+- rank 2: Stiftung Ethereum (11 unflagged values)
+- rank 7: Solana Stiftung (17 unflagged values)
