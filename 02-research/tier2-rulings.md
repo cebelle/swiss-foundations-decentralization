@@ -22,3 +22,14 @@ Deeds are cited by article number and short legal terms only. The deed files are
 
 6. **What is published from the deeds.** Coded values, article numbers and short legal terms are public. Deed files, long quotations and all personal data stay private.
 7. **Personal data.** No personally identifiable information goes into any public file. This includes, and is not limited to, passport numbers, home addresses and dates of birth.
+
+## Rulings of 2026-11-17
+
+The codebook (section 6) sends a flagged value to a Fable recode before the author rules. Fable access ended on 2026-11-17, so the author ruled on these five without the recode. Claude (Opus 5.5, medium effort) proposed the values and set out the options. The departure is logged in `DEVIATIONS.md` (2026-11-17).
+
+8. **T2-6. Web 3.0 Technologies Stiftung, F2a.** Code `MIXED`. The council elects itself, the founder may propose members and the president (*Vorschlagsrecht*), and the founder is represented on the council by at least one member (Arts. 5(1), 6, 7(2)). The guaranteed seat gives the founder a hand in appointments. Flag closed.
+   - The other reading (`CO-OPTATION`, applying T2-2 strictly because the proposal right is not exclusive) was considered and not taken.
+9. **T2-7. Web 3.0 Technologies Stiftung, F2d.** Keep `NO`, as the codebook's derivation rule gives once F2a is `MIXED`, with a note: the council and the founder control appointments between them, and participants have no say. The rule is not changed. Flag closed.
+10. **T2-8. Web 3.0 Technologies Stiftung, F3.** Code `PURPOSE`. The deed reserves a change of purpose with a general reference to Art. 86a ZGB (Art. 2) and predates 1 January 2024. Earliest use about June 2027. Treated like T2-4, except that here the founder is named in the deed. Flag closed. Whether the ten years run from the register entry or the SHAB publication date is a legal question still marked [VERIFY]; it can move the date but not the value.
+11. **T2-9. SingularityNET Foundation, F5.** Code the deed as written: dissolution is a council decision (Arts. 8(3)(g), 20(3)). Note that under Art. 88 ZGB the supervisory authority decides on dissolution. This follows the approach of T2-3: code the deed's words and record the statute beside them. Flag closed.
+12. **T2-10. The Open Network Stiftung, F1 (practice).** Code `2`, the number of council members in the commercial register, and note that it is below the deed's minimum of three (Art. 5(1)). Flag closed. Whether this is a case for the authority under Art. 83d ZGB is left to the TON legal note.

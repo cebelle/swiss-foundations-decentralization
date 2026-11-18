@@ -64,21 +64,21 @@ Published under the author's rule of 2026-11-16 (`tier2-rulings.md`, ruling 6): 
   | `PERIODIC_REPORTS` | Ethereum, NEAR, Interchain, Tezos |
   | `NOT_FOUND` | Solana, TON, Web 3.0 Technologies, DFINITY, SingularityNET |
 
-## Flags awaiting a Fable recode or an author ruling
+## Flags and rulings
 
-The codebook routes flagged values to a Fable recode, then the author. Fable access under the current plan ended on 2026-11-17. Of the 21 flags:
+The codebook routes flagged values to a Fable recode, then the author. Fable access under the current plan ended on 2026-11-17. All 21 flags now have rulings:
 
-- **16 already have rulings.**
-  - Solana F2a, F2b, F2d (T2-1)
-  - ICP F2a (T2-2)
-  - TON F3 (T2-3)
-  - ICP and Tezos F3 (T2-4)
-  - Ethereum's nine law-layer gaps (T2-5): ruled, but waiting on the full deed
-- **5 are open:**
-  - Polkadot F2a `MIXED` and its knock-on F2d `NO`
-  - Polkadot F3 (a pre-2024 reservation that refers to Art. 86a in general terms)
-  - ASI F5 (who dissolves)
-  - TON F1 practice (council below the deed minimum)
+- Solana F2a, F2b, F2d (T2-1)
+- ICP F2a (T2-2)
+- TON F3 (T2-3)
+- ICP and Tezos F3 (T2-4)
+- Ethereum's nine law-layer gaps (T2-5): ruled, but waiting on the full deed
+- Polkadot F2a `MIXED` (T2-6) and F2d `NO` with a note (T2-7)
+- Polkadot F3 `PURPOSE` (T2-8)
+- ASI F5, coded as the deed words it, with Art. 88 ZGB noted (T2-9)
+- TON F1 practice `2`, below the deed minimum (T2-10)
+
+The last five were ruled on 2026-11-17 without the Fable recode; see `DEVIATIONS.md`. The six differences between the two passes (above) are still to be ruled on.
 
 ## Not yet done
 
