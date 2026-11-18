@@ -66,7 +66,7 @@ Published under the author's rule of 2026-11-16 (`tier2-rulings.md`, ruling 6): 
 
 ## Flags and rulings
 
-The codebook routes flagged values to a Fable recode, then the author. Fable access under the current plan ended on 2026-11-17. All 21 flags now have rulings:
+The codebook routes flagged values to a Fable recode, then the author. Fable access under the current plan ended on 2026-11-17. All 21 law-layer flags now have rulings:
 
 - Solana F2a, F2b, F2d (T2-1)
 - ICP F2a (T2-2)
@@ -80,8 +80,41 @@ The codebook routes flagged values to a Fable recode, then the author. Fable acc
 
 The last five were ruled on 2026-11-17 without the Fable recode; see `DEVIATIONS.md`. The six differences between the two passes (above) are still to be ruled on.
 
+## Practice layer: appointment, removal, token holders, related entities (read 2026-11-17)
+
+Coded from the foundations' own announcements, governance pages, reports and forum posts (codebook sources 4-6), with press reports only where the foundation's statement reached the public through them.
+
+**Appointment in practice (F2a).** Where anything is published, the council fills its own seats and announces them afterwards. No foundation publishes a nomination process or a call for candidates.
+
+| Value | Foundations |
+| --- | --- |
+| `CO-OPTATION` | Ethereum, Solana, Cardano (flagged), NEAR, TON, Interchain, Tezos |
+| `NOT_FOUND` | Web 3.0 Technologies, DFINITY, SingularityNET |
+
+- **Cardano (flagged).** In 2021 the supervisor engaged a law firm, which ran the selection of an entirely new board. The board then elected the new members. Source: the Foundation's own FAQ (2025).
+- **SingularityNET.** Token holders elect a Supervisory Council (2019, 2023), but it is an advisory body separate from the Foundation council.
+- **Solana.** The deed's Independent Committee (Art. 6) does not appear in any public source.
+
+**Removal in practice (F2b).** No removal by a council was found for any foundation; departures are described as resignations or as not standing again. The exception is Cardano (`MIXED`, flagged): the 2021 board turnover came out of the supervisor's intervention.
+
+**Token-holder role in practice (F4).**
+
+| Value | Foundations |
+| --- | --- |
+| `SELF_COMMITMENT` | SingularityNET (flagged): its whitepaper's 65% token-vote rule for major changes was applied to the 2024 ASI merger vote |
+| `NONE` | Cardano (flagged: the Foundation stated in 2025 an intent to involve the community in electing future board members, with no mechanism); DFINITY (flagged: the Foundation says network governance is not Foundation governance) |
+| `NOT_FOUND` | the other seven |
+
+Several networks have protocol-level on-chain voting (Solana, Cardano, NEAR's House of Stake, Polkadot OpenGov, Cosmos Hub, Tezos). None of it reaches the foundation's council, deed or assets. Those rows are flagged for one author ruling on how to code that pattern.
+
+**Related entities in practice (F8).** One or more related entities are recorded for every foundation except Ethereum, where only a secondary report (a 2026 spin-out) was found. Notable: Interchain owns a subsidiary (Cosmos Labs) that leads product and engineering. Two records have a council member who also leads a related entity, recorded as SHARED_PERSONNEL candidates [VERIFY]: NEAR (NEAR One) and DFINITY (Internet Computer Association).
+
+**Council size, NEAR (F1 practice, flagged).** The register shows four members on 17.11.2026. The Foundation announced a fifth on 15.10.2026. Both are recorded, as the codebook requires.
+
+**New flags from this pass: 14**, listed in the CSV. Under the 2026-11-17 deviation they go to the author without a Fable recode.
+
 ## Not yet done
 
-- The practice-layer search pass (F2a/F2b nomination and removal practice, F4, F8).
+- Author rulings on the 14 practice-layer flags.
 - Source notes per foundation (`02-research/source-notes/`).
-- The random 20% check. The codebook draws it after the first pass is complete, so it waits for the practice pass.
+- The random check (codebook section 6.4). Every record now carries at least one flag, so the pool of "records with no flags" is empty. The author needs to decide how to apply the check before the draw is made.
