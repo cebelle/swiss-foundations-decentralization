@@ -59,3 +59,9 @@ Made without a Fable recode, under the 2026-11-17 deviation. Claude (Opus 5.5, m
 **On the random check (codebook section 6.4)**
 
 25. **Random check.** Every record carried at least one flag, so the pool of "records with no flags" was empty. Draw 20% of all ten records, rounded up (two), with the codebook's seed and sort order, and review every unflagged value in the records drawn. Logged in `DEVIATIONS.md` (2026-11-17). The draw (`02-research/scripts/tier2_random_check.py`; output in `02-research/data/tier2-random-check-output.txt`) gave Stiftung Ethereum and Solana Stiftung.
+
+## Random check result (2026-11-17)
+
+26. **Review of the two records drawn.** The author reviewed all 28 unflagged values (Stiftung Ethereum 11, Solana Stiftung 17). All were confirmed except one:
+    - **Solana Stiftung, F7 (practice)** changed from `NOT_FOUND` to `HOLDINGS_ONLY`. The first pass rested on one search. A fuller search found the Foundation's delegation-program dashboard, which publishes stake accounts and the total delegated, and monthly token reports for June to August 2020, with none found since. There are no full treasury figures or financial statements. Reason for the change: the first-pass search was too thin.
+    - One of the two sampled records was changed, which is not more than one in five, so the review does not widen to all records (codebook section 6.4).
