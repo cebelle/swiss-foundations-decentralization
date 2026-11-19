@@ -1,6 +1,6 @@
 # TON case study: scope and research questions
 
-**Label:** PUBLIC · **Date:** 2026-11-15 · **Status:** research in progress (Q1, Q2, Q5–Q7 facts gathered 2026-11-15; Q3–Q4 legal note drafted 2026-11-15 and held privately, see below); no argument yet · **Deviation:** logged 2026-11-15 in `DEVIATIONS.md`
+**Label:** PUBLIC · **Date:** 2026-11-15 · **Status:** research in progress (Q1, Q2, Q5–Q7 facts gathered 2026-11-15; Q3–Q4 legal note drafted 2026-11-15 and kept private, see below); no argument yet · **Deviation:** logged 2026-11-15 in `DEVIATIONS.md`
 
 ## Why TON
 
@@ -76,7 +76,7 @@ The three layers are kept apart. **Law** is the deed, the register and statutes.
 
 ### Q3 and Q4. Facts for the Fable session (no analysis here)
 
-**Update, 2026-11-15 (Fable 5.2, High):** a legal note on Q3–Q4 has been drafted from the deed, the statute text on Fedlex and case law. It quotes the deed, so it is held privately until the author decides whether deed material is published. One public fact from that work: the commercial register (Zefix, read 2026-11-15) shows no entry after SHAB 20.05.2026, so the council has stood at two members for about six months.
+**Update, 2026-11-15 (Fable 5.2, High):** a legal note on Q3–Q4 has been drafted from the deed, the statute text on Fedlex and case law. It quotes the deed, so it stays private under the author's ruling that deed files and long quotations are not published (coded values, article numbers and short legal terms are public). One public fact from that work: the commercial register (Zefix, read 2026-11-15) shows no entry after SHAB 20.05.2026, so the council has stood at two members for about six months.
 
 - No public EDI act was found. EDI supervisory decisions are not generally published [VERIFY whether the ESA publishes any].
 - **The factual premise of Q3 is not established.** No source shows a Stiftung asset changing hands. The mark stays with the Foundation, the domain holder is unknown, and the treasury is undisclosed. Telegram took the operating role by staking, shipping code and announcing; we found no transfer from the Stiftung. Whether the supervisor's reach (Arts. 84, 84a ZGB) extends to a change like this is a legal question for Fable.

@@ -62,3 +62,7 @@ Every excluded asset is listed by name, with the reason for its exclusion.
 - Market capitalization measures size, not decentralization, and it changes daily. The fixed snapshot date controls for timing but not for volatility.
 - Project documents may be out of date or may omit entities.
 - Swiss governing documents may not be publicly available.
+
+## Verification notes (added after pre-registration; the rule text above is unchanged)
+
+- **2026-11-18, step 4 [VERIFY].** Resolved in the session of 2026-11-15. Current deeds must be available online free of charge under Art. 936 para. 2 OR, so there is no fee to order them. Deeds that are not online were requested from the register free of charge. This is a verification, not a deviation.
