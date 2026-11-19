@@ -38,11 +38,14 @@ Adopted 2026-11-09 (see `DEVIATIONS.md`). Two Anthropic models are used: **Claud
 | | Ambiguous coding calls (e.g., Art. 86a ZGB reservations, unclear supervisor) | Fable | High |
 | | US-law source map | Opus | High |
 | | Swiss-law open questions (token-holder binding role, supervisor's final word) | Fable | High |
-| 4 Argument | Thesis, outline, counterarguments, recommendations | Fable | Max |
+| 4 Argument | Thesis, outline, counterarguments, recommendations. Changed 2026-11-18 from Fable/Max (see `DEVIATIONS.md`) | Opus | Highest available |
+| | Red-team pass on the thesis and recommendations, plus the open Swiss-law questions, in one capped session at the end of Phase 4. Row added 2026-11-18 | Fable | Max |
 | 5 Drafting | All section drafts (one model throughout, for a consistent voice) | Fable | High |
 | | Line edits, cite-checks, Bluebook | Opus | Medium |
 | 6 Review | Independent review, run in a fresh chat with only this repo | Fable | Max |
 | Any | Session logs, deviation entries, commits | Opus | Low |
+
+Fable access ended on 2026-11-17 under the current plan. Since 2026-11-18, Fable is used through a fixed purchase of credits with no automatic reload. The Phase 5 drafting row and the Phase 6 row are to be decided before Phase 5.
 
 ## AI-use log format
 
