@@ -142,7 +142,54 @@ Read in the primary text on 2026-11-18.
 ## 7. Comparators already in the record (not US law)
 
 - ADGM DLT Foundations Regulations 2023: token-holder rights (s. 40, reported); accounts published and publicly filed (ss. 49, 51; see `ton-case-study.md`, Q6). P (regulations PDF).
-- Cayman foundation companies with token-holder powers (ENS, Fluid): noted in the 2026-11-16 screen work; not yet sourced here [V].
+- Cayman foundation companies with token-holder powers (ENS, Fluid): noted in the 2026-11-16 screen work. Statute and the Lido entities now mapped in § 8.4; ENS and Fluid still [V].
+
+## 8. Phase 4 research block (2026-11-21)
+
+Added by Claude (Opus 5.5, High), per `AI_USE.md` ("US-law source map"). The pending list was carried into Phase 4 on 2026-11-18. Neutral, as above: what the sources say, no argument. Status codes as at the top.
+
+### 8.1 State attorneys general and DUNAs
+
+- **NAAG, *State Attorneys General: Powers and Responsibilities* ch. 12 (4th ed.).** The attorney general's regulatory responsibility extends to all charitable assets, including those held by unincorporated associations. **S** (NAAG courtesy chapter PDF; edition date [VERIFY]). <https://www.naag.org/wp-content/uploads/2021/02/Powers-and-Duties-4th-Edition-Chapter-12.0-Prot-and-Regs-of-Nonprofits-and-Charitable-Assets-Courtesy-Chapter.pdf>
+- **Wyo. Stat. Ann. § 17-32-101 et seq. (DUNA Act, 2024), merger provision.** Property held for a charitable purpose before a merger may not be diverted from the objects for which it was given. **P** (legislature page for SF0050). <https://www.wyoleg.gov/Legislation/2024/SF0050>
+- **2026 Wyo. Sess. Laws ch. 25 (SF0022).** On winding up, assets are distributed as federal law requires (see L08). **P**.
+- **Reading of the record:** no source found that subjects a DUNA as such to attorney-general supervision. Whether the attorney general's charitable-assets jurisdiction reaches a particular DUNA turns on whether it holds assets for a charitable purpose. No court or attorney-general action on a DUNA found (searched 2026-11-21). [V: Alabama and West Virginia acts; any state AG guidance]
+
+### 8.2 Member liability across state lines
+
+- **LLC forms (Wyoming DAO LLC, Tennessee DO).** Foreign-LLC statutes based on the uniform acts provide that the law of the state of formation governs a member's liability as a member for the company's debts. Examples seen: Iowa Code § 489.901(1)(b); Ohio Rev. Code § 1706.51(A)(2); Minn. Stat. § 322C.0801; Ariz. Rev. Stat. § 29-3901 (internal affairs; subsection D limits rights in-state). **P** (official state code pages). Not yet checked: California, New York, Delaware, Texas [V].
+- **UNA forms (DUNA).** The Revised Uniform Unincorporated Nonprofit Association Act has a governing-law section: unless the governing principles specify another jurisdiction, the law of the jurisdiction where the association has its main place of activities governs [V: full text and scope; Iowa Code § 501B.4 seen in part]. The uniform acts provide that a member is not liable for the association's obligations solely because of membership (e.g., Ark. Code Ann. § 4-28-608). **P** in part. No case found applying another state's DUNA law to member liability [V].
+- **Utah LLD:** not yet checked [V].
+
+### 8.3 Federal charters
+
+- ***McCulloch v. Maryland*, 17 U.S. (4 Wheat.) 316 (1819).** Federal power to charter a corporation (the Second Bank). **S** (via CRS); pinpoint [V].
+- **CRS, *Congressional or Federal Charters: Overview and Enduring Issues*, RS22230 (Apr. 19, 2013).** Congress has chartered banks, government-sponsored enterprises, commercial corporations and others; charters set governance, powers and federal oversight. **S/P** (CRS text seen in part).
+- **CRS, *Congressionally Chartered Nonprofit Organizations ("Title 36 Corporations")*, RL30340 (versions 2004–2011).** Title 36 corporations generally operate under both federal and state charters, most having been chartered under state law first; they are not agencies of the United States; the chartering process is described as honorific, which may mislead the public into assuming a direct federal relationship. **P** in part (CRS text via EveryCRSReport and ALA DttP summary). Later report: R47236 (*Title 36 Charters: The History and Evolution of Congressional Practices*) [V].
+- **12 U.S.C. § 1818(e).** Federal banking agencies may remove or prohibit institution-affiliated parties (directors, officers, controlling shareholders, 12 U.S.C. § 1813(u)) from participating in a bank's affairs. **P** (eCFR, 12 C.F.R. pt. 19; OCC enforcement pages).
+
+### 8.4 Cayman foundation companies
+
+- **Foundation Companies Act (2025 Revision) (Cayman Is.)** (originally Law 29 of 2017, in force Oct. 2017). **P** (CIMA consolidated text; sections not yet read).
+- **Practitioner guides (Ogier, Conyers, Mourant, Appleby, Carey Olsen).** A foundation company may have no members; if it has none it must appoint a supervisor, a private role with no ownership or economic entitlement that, at minimum, may attend and vote at general meetings; constitutional documents may give a founder or others power to appoint or remove directors; the members' liability shield is described as untested in Cayman courts. **S**.
+- **Lido DAO entities.** Lido Alliance BORG Foundation (Snapshot vote opened Aug. 29, 2024): a memberless, beneficiary-less Cayman foundation company whose bylaws let Lido DAO remove directors and co-approve new ones. Lido Labs BORG Foundation (on-chain vote 190 enacted July 28, 2025; "yes" votes about 5.09% of LDO supply as posted) and Lido Ecosystem BORG Foundation (2025): same form. **P** (Lido governance forum and Snapshot pages). Timing against *Samuels*: complaint filed Dec. 2023; motion-to-dismiss order Nov. 18, 2024; Alliance BORG vote opened in between; Labs and Ecosystem BORGs followed in 2025.
+
+### 8.5 Concentration of token voting power
+
+- **Robin Fritsch, Marino Müller & Roger Wattenhofer, *Analyzing Voting Power in Decentralized Governance: Who Controls DAOs?*, 5 Blockchain: Rsch. & Applications 100208 (2024)** (Compound, Uniswap, ENS). Finds most voting power concentrated in a small number of addresses, which rarely vote against the community outcome. **P** (abstract; full text to read).
+- **Rainer Feichtinger, Robin Fritsch, Yann Vonlanthen & Roger Wattenhofer, *The Hidden Shortcomings of (D)AOs: An Empirical Study of On-Chain Governance*, arXiv:2302.12125 (2023)** (21 DAOs). Reports high concentration of voting rights; in most DAOs fewer than ten participants control a majority of voting power [V: exact statement and pinpoint]. **P** (abstract and excerpt).
+- **Brett Falk et al., *Blockchain Governance: An Empirical Analysis of User Engagement on DAOs*, arXiv:2407.10945 (2024)** (Uniswap, Compound, Aave, Lido). Finds voting power highly concentrated in all four. **P** (abstract).
+- ***Samuels* complaint, as reported:** about 64% of LDO held by founders and early investors [S; read the complaint].
+
+### 8.6 Status updates for §§ 2 and 5
+
+- ***Samuels v. Lido DAO*.** Ninth Circuit No. 25-5701 (*Samuels v. AH Capital Management, LLC*), filed Sept. 9, 2025; docket active as of Mar. 2026 [V: subject (reported as arbitration) and current status]. **P** (docket listing).
+- **CLARITY Act (H.R. 3633).** Passed the House July 17, 2025 (294–134); reported by Senate Banking June 1, 2026; cloture on the motion to proceed failed 49–50 on Sept. 15, 2026. Passage this Congress is widely viewed as unlikely. **S** (Orrick, Oct. 2, 2026; CRS IF13313, Sept. 15, 2026) [V: congress.gov].
+
+### 8.7 Swiss items (for `legal-sources-verified.md` and the bibliography)
+
+- **ZGB Arts. 64–65, 75 (Verein).** The members' meeting is the supreme body (Art. 64(1)); one fifth of members can require a meeting (Art. 64(3)); the meeting admits and expels members, elects the board and decides all matters not given to another body (Art. 65(1)); a member may challenge an unlawful resolution in court (Art. 75). **S** (statutory text quoted in university and cantonal materials); Fedlex check pending [V]. No supervisory authority appears in Arts. 60–79 [V].
+- **Tezos Foundation, 2017–18 (press).** The Swiss foundation supervisory authority set the foundation a deadline to restore its three-member council after one member left (swissinfo.ch). **S**. Press is not a codebook practice source (T2-22); usable in the article as reported fact.
 
 ## Next steps for this map
 

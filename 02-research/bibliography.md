@@ -62,5 +62,6 @@ These were seen only second-hand or need a pinpoint. They enter after checking.
 - CLARITY Act, H.R. 3633, 119th Cong.: current status on congress.gov
 - Zurich Foundation Law Day materials (Univ. of Zurich, 2023): debate on pre-2024 deeds
 - Telegram, TON/Gram notice (2020) and ton.foundation self-description (accessed 2026-11-15): page text to archive
-- Cayman foundation companies (ENS, Fluid): not yet sourced
 - ZGB Arts. 52, 85, 86, 86b, 87: cited in research files, pinpoints not yet checked on Fedlex
+- Added 2026-11-21 (see `us-law-source-map.md` § 8; enter after source notes are written): foreign-LLC governing-law statutes (Iowa § 489.901; Ohio § 1706.51; Minn. § 322C.0801; Ariz. § 29-3901); RUUNAA governing-law section (Iowa § 501B.4); NAAG ch. 12; 12 U.S.C. § 1818(e); McCulloch v. Maryland; CRS RS22230, RL30340, R47236; Cayman Foundation Companies Act (2025 Revision); Lido BORG forum and Snapshot records; Fritsch, Müller & Wattenhofer (2024); Feichtinger et al. (2023); Falk et al. (2024); ZGB Arts. 64, 65, 75; Tezos 2017–18 press (swissinfo.ch)
+- Cayman foundation companies (ENS, Fluid): still not sourced
